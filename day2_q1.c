@@ -19,13 +19,11 @@ int main() {
     
     int pos;
     scanf("%d", &pos);
-    
-    // Shift elements left from pos onwards (0-based index: pos-1)
+
     for(int i = pos - 1; i < n - 1; i++) {
         arr[i] = arr[i + 1];
     }
   
-    // Print updated array (n-1 elements)
     for(int i = 0; i < n - 1; i++) {
         printf("%d ", arr[i]);
     }
