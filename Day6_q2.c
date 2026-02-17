@@ -14,14 +14,12 @@ int main() {
         scanf("%d", &arr[i]);
     }
     
-    // Two-pointer: compact non-zeros to front
     int k = 0;
     for(int i = 0; i < n; i++) {
         if(arr[i] != 0) {
             arr[k++] = arr[i];
         }
     }
-    // Fill rest with zeros
     for(int i = k; i < n; i++) {
         arr[i] = 0;
     }
