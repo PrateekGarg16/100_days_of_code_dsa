@@ -18,8 +18,7 @@ int main() {
         scanf("%d", &arr[i]);
     }
     
-    // Two-pointer approach for removing duplicates in-place
-    int k = 0;  // Next position for unique element
+    int k = 0; 
     for(int i = 0; i < n; i++) {
         if(i == 0 || arr[i] != arr[i-1]) {
             arr[k] = arr[i];
