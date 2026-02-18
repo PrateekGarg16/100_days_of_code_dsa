@@ -6,7 +6,6 @@ Input:
 Output:
 - Print the n-th Fibonacci number */
 
-
 #include <stdio.h>
 
 long long fib(int n) {
@@ -21,4 +20,3 @@ int main() {
     printf("%lld\n", fib(n));
     return 0;
 }
-
