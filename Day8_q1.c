@@ -4,7 +4,7 @@ Input:
 - Two space-separated integers a and b */
 
 
-#include <stdio.h>
+#include <stdio,h>
 
 long long power(int a, int b) {
     if (b == 0) return 1;
