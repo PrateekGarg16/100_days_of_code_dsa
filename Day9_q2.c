@@ -10,7 +10,7 @@ int main() {
     int sSize = strlen(s);
     
     reverseString(s, sSize);
-    printf("%s\n", s);  // Outputs: olleh
+    printf("%s\n", s);  
     
     return 0;
 }
