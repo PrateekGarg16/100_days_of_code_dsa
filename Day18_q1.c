@@ -1,3 +1,10 @@
+/*Problem: Given an array of integers, rotate the array to the right by k positions.
+
+Input:
+- First line: integer n
+- Second line: n integers
+- Third line: integer k */
+
 #include <stdio.h>
 void reverse(int* nums, int start, int end) {
     while (start < end) {
